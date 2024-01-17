@@ -1,11 +1,5 @@
 # IN5320-PROJECT FOR GROUP 31:
 
-- Naser Abdelmaguid, naserab
-- Benjamin Borge, benjabor
-- Madin Cej, madinc
-- Selleban Farah, sellebaf
-- Shahvez Mahmood, shahvezm
-
 The application is created using the [DHIS2 Application Platform](https://github.com/dhis2/app-platform), a framework for building DHIS2 applications. While it's not necessary to watch the video for setting up or running the application, it provides additional insights into DHIS2 application development. You can find more details about the platform and an introduction to application development in DHIS2 in the video linked [here](https://www.youtube.com/watch?v=WP6ZWbsTz-Q&list=PLo6Seh-066Rze0f3zo-mIRRueKdhw4Vnm&index=4).
 
 # DESCRIPTION OF DHIS2

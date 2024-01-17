@@ -1,5 +1,5 @@
 # Project work
-This is project i did for a unversity course alongside 4 other team members that involves the use of the DHIS2 platform to build a web application based on a case in managing,dispensing off medicine and manegment in medical staff.
+This is project i did for a unversity course alongside 4 other team members that involves the use of the DHIS2 platform to build a web application based on a case in managing, dispensing and ogranizing medical stocks. This solution also includes managment of users and medical staff.
 
 
 # DESCRIPTION OF DHIS2

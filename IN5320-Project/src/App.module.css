@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left {
+  
+  max-width: 165px;
+  min-height: 100vh;
+  padding-top: 20px;
+  
+}
+
+.right {
+  flex-grow: 1;
+  min-height: 100vh;
+  padding: 26px 16px 0;
+  background: #f0f0f0;
+  margin-left: 20px; /* Width of the side menu plus some additional space */
+}
+
+.HistoryPageWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dispenseByTo {
+  display: flex;
+
+  gap: 20px;
+
+
+
+
+}
+.historyTable {
+  display: flex;
+  flex-direction: row;
+}
+
+.dispenseByTo div {
+  width: 100%;
+}
+
+.submitButton {
+  margin-top: 40px;
+}
+.amountDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin-top: 20px;
+  gap: 10px;
+}
+.amountField {
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.addItem {
+  margin-bottom: 20px;
+}
+
+.dispensingTable Button {
+  outline: none;
+  border-color: #f0f0f0;
+  background-color: #f0f0f0;
+}
+
+.pad {
+  margin: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center; /* Keeps items vertically centered */
+    justify-content: space-between; /* Places maximum space between items */
+}
+
+.header Button {
+    margin-right: 20px;
+}

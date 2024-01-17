@@ -9,3 +9,27 @@ DHIS2 is a cost-free software platform offering open-source development services
 # PRE-REQUISITES
 
 Node and yarn have to be installed on your computer to set up the application. They can be installed following the [node.js setup guide](https://dhis2-app-course.ifi.uio.no/learn/getting-started/development-setup/nodejs/).
+Following this, the DHIS2 dependencies have to be installed. To install them globally, one can run the following command:
+
+```
+yarn global add @dhis2/cli
+```
+
+Moreover, many web browsers will need a request to an external resource, specifically our DHIS2 instance. We achieve this through the dhis-portal tool, which can be set up by executing the provided command:
+
+```
+yarn global add dhis-portal
+```
+
+# FIRST TIME SETUP
+
+Make sure to import all the necessary dependencies:
+
+```
+yarn install
+```
+
+Set up the DHIS2 proxy:
+
+```
+npx dhis-portal --target=https://data.research.dhis2.org/in5320/
